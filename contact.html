@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9V4B9KJBJJ"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-9V4B9KJBJJ');
+        </script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Loukas Anastasiou | User Experience &amp; Brand Strategy</title>
+        <link rel="stylesheet" href="scss/style.css" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <div class="wrapper contact">
+            <header>
+                <a class="logo" href="./">Loukas Anastasiou</a>
+                <nav>
+                    <ul>
+                        <li><a href="user-experience">User Experience Design</a></li><li><a href="brand-strategy">Brand Strategy</a></li><li><a href="web-development">Web Development</a></li><li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+                <div class="location">Athens, Greece</div>
+            </header>
+            <main>
+                <div class="level1">
+                    contact me
+                    <div class="circle"></div>
+                </div>
+                <form class="frm-contact level6"  method="post" action="https://formsubmit.co/revoliberte@gmail.com">
+                    <input class="txt-was" name="was" type="text" placeholder="What can I do for you?" />
+                    <input class="txt-name" name="name" type="text" placeholder="First and Last Name *" required />
+                    <input class="txt-company" name="company" type="text" placeholder="Company / Organization"  />
+                    <input class="txt-email" name="email" type="email" placeholder="Email Address *" required />
+                    <input class="txt-tele" name="tele" type="text" placeholder="Phone Number" />
+                    <button type="submit">Send</button>
+                </form>
+            </main>
+            <footer>
+                I’m always happy to talk.
+                <a href="mailto:hi@crankittoeleven.com"><div class="email">hi@crankittoeleven.com</div></a>
+                <a href="https://www.instagram.com/anastasiou_io/"><div class="instagram">Instagram</div></a>
+                <a href="https://www.linkedin.com/in/loukas-anastasiou-92877b115/"><div class="linkedin">LinkedIn</div></a>
+            </footer>
+            <div class="confirm">Message received!</div>
+        </div>
+        <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+        <script>
+            (function() {
+                $('html').css('font-size', Math.round($(window).width() / 118.9375) + 'px');
+                $(window).resize(() => $('html').css('font-size', Math.round($(window).width() / 118.9375) + 'px'));
+            }());
+        </script>
+    </body>
+</html>
